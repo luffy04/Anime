@@ -1,0 +1,504 @@
+#c{
+    height:1405px;
+    position:relative;
+    z-index: 99;
+}
+#parentlogin{
+    z-index:101;
+    position: fixed;
+    height:230px;
+    width:20%;
+    background-color: white;
+    top: 36%;
+    left:37%;
+    border-radius: 0.25rem;
+}
+#childlogin{
+    position: fixed;
+    height:230px;
+    width:20%;
+    background-color: white;
+    top: 36%;
+    left:37%;
+    border-radius: 0.25rem;
+}
+#close1{
+    position: absolute;
+    right: 2%;
+    top:3%;
+    background: none;
+    border:0;
+    cursor: pointer;
+}
+#username{
+    position: absolute;
+    top:10%;
+    left:8.5%;
+}
+#usernamebox{
+    position: absolute;
+    top:20%;
+    left:8.5%;
+    width:80%;
+    height:30px;
+    border-radius: 0.25rem;
+}
+#password{
+    position: absolute;
+    top:40%;
+    left:8.5%;
+}
+#passwordbox{
+    position: absolute;
+    top:50%;
+    left:8.5%;
+    width:80%;
+    height:30px;
+    border-radius: 0.25rem;
+}
+#submit{
+    position: absolute;
+    top:72%;
+    left:28%;
+}
+#submitbox{
+    width:208%;
+    color:white;
+    background-color: #007bff;
+    border: none;
+    height:30px;
+}
+#submitbox:hover{
+    border:1px solid #007bff;
+    background-color: white;
+    color:#007bff;
+}
+#parentregister {
+    position: fixed;
+    background-color: white;
+    left: 37.5%;
+    top:20%;
+    height:45%;
+    width:25%;
+    border-radius: 0.25em;
+    z-index: 101;
+}
+#childregister{
+    position: fixed;
+    background-color: white;
+    left: 37.5%;
+    top:20%;
+    height:45%;
+    width:25%;
+    border-radius: 0.25em;
+}
+#name{
+    position:  absolute;
+    top:10%;
+    left:10%;
+}
+#namebox{
+    position: absolute;
+    top:17%;
+    left:10%;
+    height:30px;
+    width:70%;
+    border-radius: 0.25em;
+}
+#passwordagain{
+    position: absolute;
+    top:34%;
+    left: 10%;
+}
+#passwordbox1{
+    position: absolute;
+    top:41%;
+    left: 10%;
+    height:30px;
+    width:70%;
+    border-radius: 0.25em;
+}
+#confirmp{
+    position: absolute;
+    top:58%;
+    left:10%;
+}
+#confirmpbox{
+    position: absolute;
+    top:65%;
+    left:10%;
+    height:30px;
+    width:70%;
+    border-radius: 0.25em;
+}
+
+#submitboxreg{
+    position: absolute;
+    top:85%;
+    left:35%;
+    height:26px;
+    border-radius: 0.25em;
+    border-color: #007bff;
+    background-color: #007bff;
+    color:white;
+}
+#d{ display: flex;
+    position:relative;
+    height:100px;
+}
+#ab{
+    position: absolute;
+    width:20%;
+    height:30%;
+    left:20%;
+    top:20%;
+
+}
+#user{
+    top:20%;
+    left:45%;
+    position: absolute;
+    display: inline-block;
+}
+#login{
+    color:blue;
+    background: black;
+    border:none;
+}
+#or{
+    color:white;
+}
+#Register{
+    background: black;
+    border:none;
+    color: blue;
+}
+#ac{
+    position:absolute;
+    right:20%;
+    top:20%;
+}
+#se{
+    border:1px solid white;
+    background-color: #222222;
+    color:white;
+    margin-right: 2px;
+}
+#su{
+    border-radius: 2%;
+    background-color: chartreuse;
+    color:white;
+    border:1px solid chartreuse;
+}
+#space{
+    position:absolute;
+    background-color: #161616;
+    width:100%;
+    height:70px;
+    top:110px;
+
+}
+#ls{
+    position: absolute;
+    background-color: chartreuse;
+    color:white;
+    width:100%;
+    height:20px;
+    top:160px;
+    text-align: center;
+}
+#tab{
+    position: absolute;
+    width:auto;
+    background-color:black;
+    margin-left:30%;
+    height:25px;
+    top:135px;
+    display: flex;
+    border:0;
+
+}
+#tab1,#tab2,#tab3,#tab4,#tab5 {
+    background-color: lightslategrey;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    margin-right: 2px;
+    border-bottom: 0;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+}
+#e{
+    width:100%;
+    height:1131px;
+    position:absolute;
+    top:190px;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+#f{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+/*#fg{*/
+    /*position: absolute;*/
+    /*left:16%;*/
+/*}*/
+#img2{
+    position: fixed;
+
+}
+#g{
+    position:absolute;
+    top:0px;
+    left:1131px;
+}
+#img1{
+    margin:3px;
+    border:1px solid black;
+    padding: 1px;
+}
+#img1:hover{
+    border:1px solid red;
+}
+#anime{border:1px solid gray;
+    position:absolute;
+    left:215px;
+    background-color:black ;
+    width:67%;
+    height:590px;
+    top:0px;
+    display: flex;
+}
+#info{
+    position: absolute;
+    top:0;
+    left:111px;
+
+}
+#anime1{  position:absolute;
+    background-color:black;
+    width:100%;
+}
+#anime2{position:absolute;
+    background-color:#161616;
+    width:100%;
+    top:117px;
+}
+#anime3{position:absolute;
+    background-color:black;
+    width:100%;
+    top:231px;
+}
+#anime4{position:absolute;
+    background-color: #161616;
+    width:100%;
+    top:345px;
+}
+#anime5{position:absolute;
+    background-color:black;
+    width:100%;
+    top:459px;
+}
+#more{
+    position: absolute ;
+    bottom:0px;
+    right:0px;
+    color:yellow;
+}
+#letter{
+    height:159%;
+    position: absolute;
+    left:-10%;
+    top:-8px;
+}
+#rbin{
+    position: absolute;
+    left:4%;
+    top:30%;
+    font-size: 30px;
+}
+#videoPlayer1 {
+    position: absolute;
+    left: 215px;
+    width: 67%;
+    height: 590px;
+}
+#videoPlayer2 {
+    position: absolute;
+    left: 215px;
+    width: 67%;
+    height: 590px;
+}
+#videoPlayer3 {
+    position: absolute;
+    left: 215px;
+    width: 67%;
+    height: 590px;
+}
+#videoPlayer4 {
+    position: absolute;
+    left: 215px;
+    width: 67%;
+    height: 590px;
+}
+#videoPlayer5 {
+    position: absolute;
+    left: 215px;
+    width: 67%;
+    height: 590px;
+}
+#videoPlayer6 {
+    position: absolute;
+    left: 215px;
+    width: 67%;
+    height: 590px;
+}
+#videoPlayer7 {
+    position: absolute;
+    left: 215px;
+    width: 67%;
+    height: 590px;
+}
+#videoPlayer8 {
+    position: absolute;
+    left: 215px;
+    width: 67%;
+    height: 590px;
+}
+#videoPlayer9 {
+    position: absolute;
+    left: 215px;
+    width: 67%;
+    height: 590px;
+}
+#videoPlayer10 {
+    position: absolute;
+    left: 215px;
+    width: 67%;
+    height: 590px;
+}
+#videoPlayer11 {
+    position: absolute;
+    left: 215px;
+    width: 67%;
+    height: 590px;
+}
+#videoPlayer12 {
+    position: absolute;
+    left: 215px;
+    width: 67%;
+    height: 590px;
+}
+#videoPlayer13 {
+    position: absolute;
+    left: 215px;
+    width: 67%;
+    height: 590px;
+}
+#episode1{
+    position: absolute;
+    left:21%;
+    top:2%;
+    width:162px;
+    height:94px;
+}
+#animeimg:hover{
+    border:1px solid red;
+}
+#videoimg1{
+    position: absolute;
+    left:80%;
+    top:5%;
+    background: none;
+    border: none;
+}
+#bookmark{
+    position: absolute;
+    left:77%;
+    top:5%;
+    background: none;
+    border:none;
+}
+#animeimg{
+    width:162px;
+    height:94px;
+}
+#animetitle{
+    color:yellow;
+    text-align: center;
+}
+#episode2{
+    position: absolute;
+    left:42%;
+    top:2%;
+    width:162px;
+    height:94px;
+}
+#episode3{
+    position: absolute;
+    left:63%;
+    top:2%;
+    width:162px;
+    height:94px;
+}
+#episode4{
+    position: absolute;
+    left:21%;
+    top:16%;
+    width:162px;
+    height:94px;
+}
+#episode5{
+    position: absolute;
+    left:42%;
+    top:16%;
+    width:162px;
+    height:94px;
+}
+#episode6{
+    position: absolute;
+    left:63%;
+    top:16%;
+    width:162px;
+    height:94px;
+}
+#episode7{
+    position: absolute;
+    left:21%;
+    top:30%;
+    width:162px;
+    height:94px;
+}
+#episode8{
+    position: absolute;
+    left:42%;
+    top:30%;
+    width:162px;
+    height:94px;
+}
+#episode9{
+    position: absolute;
+    left:63%;
+    top:30%;
+    width:162px;
+    height:94px;
+}
+#episode10{
+    position: absolute;
+    left:21%;
+    top:44%;
+    width:162px;
+    height:94px;
+}
+#episode11{
+    position: absolute;
+    left:42%;
+    top:44%;
+    width:162px;
+    height:94px;
+}

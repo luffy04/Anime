@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ORBIN</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="shortcut icon" href="vegeta.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body style="background-color: black" >
+<div id="c" style="opacity: 1">
+
+    <div id="d">
+        <a href="index.html" id="ab"><img src="nf/letter.svg" id="letter"><span id="rbin">RBIN</span></a >
+        <div id="user">
+            <span id="Intro">Hello</span><span id="userentry1"><%=  name %> </span>
+        </div>
+        <!--<div id="choice">-->
+
+        <button id="profile"><a href="profile.ejs">Profile</a></button>
+        <form action="/videos" method="post"><input type="submit" id="videos" value="Videos"></form>
+        <form action="/logout" method="get">
+            <button id="logout">Logout</button>
+        </form>
+
+        <!--</div>-->
+        <div id="ac" ><input type="text" placeholder="Enter Anime.." id="se" autocomplete="off">
+            <button id="su">Submit</button>
+        </div>
+    </div>
+    <div id="space"></div>
+    <div id="ls">Register For MORE Options | Upcoming Anime</div>
+    <div id="tab">
+        <button id="tab1">Home</button>
+        <button id="tab2"><a href="animelist.html">Anime List</a></button>
+        <button id="tab3">Mobile</button>
+        <button id="tab4">Manga</button>
+        <a href="socket.html"><button id="tab5">Live Chat</button></a>
+    </div>
+    <div id="e">
+        <div id="f">
+            <img src="http://c.bebi.com/e392091a-b7da-49ab-8bf8-8b398aba34f5.jpg" width="200px">
+        </div>
+        <div id="g">
+            <img src="http://c.bebi.com/4cb502bb-6a7a-4050-993b-7ed3361e74e3.jpg" width="200px">
+        </div>
+        <div id="profilepic">
+        <%= typeof msg != 'undefined' ? msg: '' %>
+        <div id="image"><img id="uploadedimage" src="<%= typeof file != 'undefined' ? file: ''%>"></div>
+            <form method="post" action="/upload" enctype="multipart/form-data">
+                <div id="changepic">Change Profile Pic<input type="file" name="myImage" id="file"></div>
+            <button type="submit" id="upload">Upload Pic</button>
+        </form>
+        </div>
+        <span id="userentryname"><%= name%></span>
+        <span id="credit">Credits</span>
+    </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

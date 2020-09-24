@@ -1,0 +1,94 @@
+
+#parent{
+    width:100%;
+    /*opacity: 0.2;*/
+    z-index:1;
+}
+#chat{
+    position: absolute;
+    font-size:100px;
+    width:100%;
+    background-color: #2E2F30;
+    text-align: center;
+    color:white;
+}
+#inp{
+    position: absolute;
+    top:20%;
+    left:30%;
+    width:300px;
+}
+#btn{
+    position: absolute;
+    top:20%;
+    left: 54%;
+    width:80px;
+    border:chartreuse;
+    background-color: chartreuse;
+    color:white;
+}
+#result{
+    position: absolute;
+    top:23%;
+}
+li{
+    padding:15px;
+}
+#popup{
+    position: absolute;
+    width:50%;
+    background: mediumseagreen;
+    height:321px;
+    top:25%;
+    left:25%;
+    z-index: 2;
+    opacity: 1;
+}
+#left{
+    position: absolute;
+    top:47%;
+    left:1%;
+    background: none;
+    border: none;
+}
+#right{
+    position: absolute;
+    top:47%;
+    right:1%;
+    background: none;
+    border: none;
+}
+#skip{
+    position: absolute;
+    color:white;
+    bottom:1%;
+    right:1%;
+    border: none;
+    background: none;
+}
+#squad{
+    position: absolute;
+    width:69%;
+    left:15.5%;
+    top:12%;
+    height:77%;
+}
+#duo{
+    position: absolute;
+    width:69%;
+    left:15.5%;
+    top:12%;
+    height:77%;
+}
+#text{
+    color:white;
+    position: absolute;
+    left:31%;
+    top:19%;
+}
+#text1{
+    color:black;
+    position: absolute;
+    left:40%;
+    top:19%;
+}

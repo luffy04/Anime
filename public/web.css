@@ -1,0 +1,895 @@
+#c{
+    height:1405px;
+    position:relative;
+    z-index: 99;
+    /*opacity: 0.2;*/
+}
+#popup{
+    position: fixed;
+    background-color: #007bff;
+    height: 60%;
+    width:74%;
+    left:13%;
+    top:15%;
+    z-index: 100;
+}
+#outside{
+    position: fixed;
+    height: 46%;
+    width:70%;
+    left:13%;
+    top:15%;
+    padding: 2%;
+}
+#close{
+    position: absolute;
+    right: 2%;
+    top:3%;
+    background: none;
+    border:0;
+    cursor: pointer;
+}
+
+#parentlogin{
+    z-index:101;
+    position: fixed;
+    height:230px;
+    width:20%;
+    background-color: white;
+    top: 36%;
+    left:37%;
+    border-radius: 0.25rem;
+}
+#childlogin{
+    position: fixed;
+    height:230px;
+    width:20%;
+    background-color: white;
+    top: 36%;
+    left:37%;
+    border-radius: 0.25rem;
+}
+#close1{
+    position: absolute;
+    right: 2%;
+    top:3%;
+    background: none;
+    border:0;
+    cursor: pointer;
+}
+#username{
+    position: absolute;
+    top:10%;
+    left:8.5%;
+}
+#usernamebox{
+    position: absolute;
+    top:20%;
+    left:8.5%;
+    width:80%;
+    height:30px;
+    border-radius: 0.25rem;
+}
+#password{
+    position: absolute;
+    top:40%;
+    left:8.5%;
+}
+#passwordbox{
+    position: absolute;
+    top:50%;
+    left:8.5%;
+    width:80%;
+    height:30px;
+    border-radius: 0.25rem;
+}
+#submit{
+    position: absolute;
+    top:72%;
+    left:28%;
+}
+#submitbox{
+    width:208%;
+    color:white;
+    background-color: #007bff;
+    border: none;
+    height:30px;
+}
+#submitbox:hover{
+    border:1px solid #007bff;
+    background-color: white;
+    color:#007bff;
+}
+
+#parentregister {
+    position: fixed;
+    background-color: white;
+    left: 37.5%;
+    top:20%;
+    height:45%;
+    width:25%;
+    border-radius: 0.25em;
+    z-index: 101;
+}
+#childregister{
+    position: fixed;
+    background-color: white;
+    left: 37.5%;
+    top:20%;
+    height:45%;
+    width:25%;
+    border-radius: 0.25em;
+}
+#name{
+    position:  absolute;
+    top:10%;
+    left:10%;
+}
+#namebox{
+    position: absolute;
+    top:17%;
+    left:10%;
+    height:30px;
+    width:70%;
+    border-radius: 0.25em;
+}
+#passwordagain{
+    position: absolute;
+    top:34%;
+    left: 10%;
+}
+#passwordbox1{
+    position: absolute;
+    top:41%;
+    left: 10%;
+    height:30px;
+    width:70%;
+    border-radius: 0.25em;
+}
+#confirmp{
+    position: absolute;
+    top:58%;
+    left:10%;
+}
+#confirmpbox{
+    position: absolute;
+    top:65%;
+    left:10%;
+    height:30px;
+    width:70%;
+    border-radius: 0.25em;
+}
+
+#submitboxreg{
+    position: absolute;
+    top:85%;
+    left:35%;
+    height:26px;
+    border-radius: 0.25em;
+    border-color: #007bff;
+    background-color: #007bff;
+    color:white;
+}
+#videoupload{
+    position: absolute;
+    top:10%;
+
+}
+#socket{
+    position: absolute;
+    width:15%;
+    height:16%;
+    background-color: #111111;
+    top:75%;
+    left:2%;
+    color: white;
+    border: none;
+    text-align: center;
+}
+#no{
+    position: absolute;
+    width:15%;
+    height: 16%;
+    background-color: #111111;
+    top:75%;
+    border: none;
+    left: 20%;
+    color: white;
+    text-align: center;
+}
+#socket:hover,#no:hover{
+    background-color: red;
+}
+
+#d{ display: flex;
+    position:relative;
+    height:100px;
+}
+#letter{
+    height:159%;
+    position: absolute;
+    left:-10%;
+    top:-8px;
+}
+#rbin{
+    position: absolute;
+    left:4%;
+    top:30%;
+    font-size: 30px;
+}
+#ab{
+    position: absolute;
+    width:20%;
+    height:30%;
+    left:20%;
+    top:20%;
+
+}
+#user{
+    top: 20%;
+    left: 41%;
+    width: 147px;
+    height: 28px;
+    background-color: #2E2F30;
+    text-align: center;
+    border-radius: 0.25em;
+    position: absolute;
+    display: inline-block;
+}
+#login{
+    position: absolute;
+    color:blue;
+    left:9%;
+    top:17%;
+    background: #2E2F30;
+    border:none;
+}
+#Intro{
+    position: absolute;
+    color: #007bff;
+    left:9%;
+    top:17%;
+}
+#userentry1{
+    position: absolute;
+    color:yellow;
+    left:45%;
+    top:17%;
+}
+#choice{
+    position: absolute;
+    width:75px;
+    left:45%;
+    top:48%;
+    display: inline-block;
+}
+#profile{
+    /*position: absolute;*/
+    background-color:black;
+    border: none;
+    color: yellow;
+    left:37%;
+    top:58%;
+
+    position:absolute;
+    width:75px;
+    height:24px;
+    text-align: center;
+}
+#videos{
+    /*position: absolute;*/
+    background-color: black;
+    border: none;
+    position: absolute;
+    left:43%;
+    top:58%;
+    color: yellow;
+    width:75px;
+    height:24px;
+    text-align: center;
+}
+#logout{
+    /*position: absolute;*/
+    background-color: black;
+    border: none;
+    color: yellow;
+    width:75px;
+    position: absolute;
+    left:49%;
+    top:58%;
+    border-radius: 0.25em;
+    height:24px;
+    text-align: center;
+}
+#profilepic{
+    position: absolute;
+    left:19%;
+    top:2%;
+    height:80%;
+    width:63%;
+}
+#changepic{
+    position: absolute;
+    left:11%;
+    top:26%;
+    background-color: black;
+    color: blue;
+}
+#uploadedimage{
+    position: absolute;
+    width:100%;
+    height:100%;
+}
+#changevideo{
+    position: absolute;
+    left:3%;
+    top:23%;
+    background-color: black;
+    color: blue;
+    font-size: 22px;
+}
+#uploadvideo{
+    position: absolute;
+    width:100%;
+    height:100%;
+}
+#uploadvid{
+    position: absolute;
+    left:17%;
+    top:23%;
+    background-color: black;
+    color:green;
+    border: none;
+    font-size:22px;
+}
+#videoupload{
+    position: absolute;
+    top:6%;
+}
+#videoupload2{
+position: absolute;
+    top:6%;
+    left:52%;
+}
+#changevideo2{
+    position: absolute;
+    left:52%;
+    top:23%;
+    background-color: black;
+    color: blue;
+    font-size: 22px;
+}
+#uploadvid2{
+    position: absolute;
+    left:69%;
+    top:23%;
+    background-color: black;
+    color:green;
+    border: none;
+    font-size:22px;
+}
+#videouploading{
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height:150px;
+}
+#file{
+    position: absolute;
+    left:0;
+    top:0;
+    width:120px;
+    border:none;
+    background-color: black;
+    color: black;
+    opacity: 0;
+}
+#upload{
+    position: absolute;
+    left:14%;
+    top:29%;
+    background-color: black;
+    color:green;
+    border: none;
+}
+#image{
+    width:19%;
+    height:200px;
+    position: absolute;
+    border:2px solid gold;
+    left:8%;
+}
+#userentryname{
+    position: absolute;
+    color:yellow;
+    left:38%;
+    top:2%;
+    width:8%;
+    font-size: 48px;
+}
+#credit{
+    position: absolute;
+    color:blue;
+    font-size:30px;
+    width:8%;
+    left: 38%;
+    top:8%;
+}
+#or{
+    position: absolute;
+    color:white;
+    left:41%;
+    top:17%;
+    background-color: #2E2F30;
+}
+#Register{
+    position: absolute;
+    left: 56%;
+    top:17%;
+    background: #2E2F30;
+    border:none;
+    color: blue;
+}
+#ac{
+    position:absolute;
+    right:20%;
+    top:20%;
+}
+#se{
+    border:1px solid white;
+    background-color: #222222;
+    color:white;
+    margin-right: 2px;
+}
+#su{
+    border-radius: 2%;
+    background-color: chartreuse;
+    color:white;
+    border:1px solid chartreuse;
+}
+#space{
+    position:absolute;
+    background-color: #161616;
+    width:100%;
+    height:70px;
+    top:110px;
+
+}
+#ls{
+    position: absolute;
+    background-color: chartreuse;
+    color:white;
+    width:100%;
+    height:20px;
+    top:160px;
+    text-align: center;
+}
+#tab{
+    position: absolute;
+    width:auto;
+    background-color:black;
+    margin-left:30%;
+    height:25px;
+    top:135px;
+    display: flex;
+    border:0;
+
+}
+#tab1,#tab2,#tab3,#tab4,#tab5 {
+    background-color: lightslategrey;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    margin-right: 2px;
+    border-bottom: 0;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+}
+#e{
+    width:100%;
+    height:1131px;
+    position:absolute;
+    top:190px;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+#f{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#img2{
+    position: fixed;
+
+}
+#g{
+    position:absolute;
+    top:0px;
+    left:1131px;
+}
+#img1{
+    margin:3px;
+    border:1px solid black;
+    padding: 1px;
+}
+#img1:hover{
+    border:1px solid red;
+}
+#h{
+    position:absolute;
+    left:214px;
+    background-color:#161616 ;
+    width:719px;
+    height:215px;
+    border:1px solid white;
+}
+#i{
+    position: absolute;
+    top:0;
+    left:170px;  }
+#ran
+{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    Border:1px solid chartreuse;
+    color:white;
+    background-color: chartreuse;
+    border-radius: 20%;
+    margin:4px 4px;
+    padding:1px;  }
+#j{
+    position:absolute;
+    left:214px;
+    background-color:gray ;
+    width:719px;
+    height:235px;
+    top:252px;
+    border:1px solid white;
+}
+#k{
+    border:1px solid chartreuse;
+    background-color: chartreuse;
+    border-radius:5%;
+    padding:2px;
+    margin:3px;
+    height:20px;
+}
+#ka{margin:2px;
+    position: absolute;
+    left:1px;
+}
+#kb{margin:2px;
+    position: absolute;
+    right:1px;
+}
+#l{position:absolute;
+    top:35px;
+    display: inline-block;
+}
+#la{
+    position:absolute;
+    bottom:-13px;
+    left:13px;
+    font-size:13px ;
+    color:chartreuse;
+}
+#lb{
+    position:absolute;
+    bottom:-29px;
+    left:37px;
+    font-size:13px ;
+
+}
+#lc{position:absolute;
+    bottom:-13px;
+    left:160px;
+    font-size:13px ;
+    color:chartreuse;
+}
+#ld{
+    position:absolute;
+    bottom:-29px;
+    left:184px;
+    font-size:13px ;
+}
+#le{position:absolute;
+    bottom:-13px;
+    left:307px;
+    font-size:13px ;
+    color:chartreuse;
+}
+#lf{position:absolute;
+    bottom:-29px;
+    left:331px;
+    font-size:13px ;
+}
+#lg{position:absolute;
+    bottom:-27px;
+    left:454px;
+    font-size:13px ;
+    color:chartreuse;
+    width:130px;}
+#lh{position:absolute;
+    bottom:-27px;
+    left:587px;
+    font-size:13px ;
+    color:chartreuse;
+    width:130px;}
+#tabx{position:absolute;
+    left:214px;
+    background-color:black ;
+    width:719px;
+    height:25px;
+    top:510px;
+    display: flex;
+}
+#tab6,#tab7,#tab8{
+    background-color: chartreuse;
+    width: 124px;
+    text-align: center;
+    border: 1px solid black;
+    margin-right: 2px;
+    border-bottom: 0;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    color:white;
+}
+#anime{border:1px solid gray;
+    position:absolute;
+    left:215px;
+    background-color:black ;
+    width:719px;
+    height:590px;
+    top:535px;
+    display: flex;
+}
+#info{
+     position: absolute;
+     top:0;
+     left:111px;
+
+ }
+#anime1{  position:absolute;
+    background-color:black;
+    width:719px;
+}
+#anime2{position:absolute;
+    background-color:#161616;
+    width:719px;
+    top:117px;
+}
+#anime3{position:absolute;
+    background-color:black;
+    width:719px;
+    top:231px;
+}
+#anime4{position:absolute;
+    background-color: #161616;
+    width:719px;
+    top:345px;
+}
+#anime5{position:absolute;
+    background-color:black;
+    width:719px;
+    top:459px;
+}
+#more{
+    position: absolute ;
+    bottom:0px;
+    right:0px;
+    color:yellow;
+}
+#block
+{
+    border: 1px solid grey;
+    position: absolute;
+    left:944px;
+    width:175px;
+    height: 10%;
+}
+#announce
+{
+    position: absolute;
+    border: 1px solid chartreuse;
+    background-color: chartreuse;
+    top:2px;
+    width:168px;
+    margin:2px;
+    height:15%;
+    color: white;
+}
+#at{ position: absolute;
+    top:25px;
+    width:168px;
+    margin:5px;
+    color: white;
+}
+#block2{
+    border: 1px solid grey;
+    position: absolute;
+    left:944px;
+    width:175px;
+    height: 38%;
+    top:128px;
+}
+#ongoing{
+    position: absolute;
+    border: 1px solid chartreuse;
+    background-color: chartreuse;
+    top:2px;
+    width:168px;
+    margin:2px;
+    height:4%;
+    color: white;
+}
+#ot{
+    position: absolute;
+
+    top:25px;
+    width:168px;
+    margin:5px;
+    color: yellow;
+    font-size: 12px;
+}
+#more2{position: absolute;
+    bottom:0px;
+    right:0px;
+    color:yellow;
+    margin:2px;
+}
+#foot{position: absolute;
+    bottom: 0px;
+    background-color:#161616;
+    height:50px;
+    width:100%;
+    text-align: center;
+    margin-left: 10px;
+}
+a:link{
+    color:yellow;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+@media(max-width: 1361px ) {
+    #e {display:flex;
+        position: absolute;
+
+    }
+
+    #h , #j , #anime {
+        position: absolute;
+    }
+    #block , #block2{
+        position:absolute;
+        right:0px;
+    }
+    #g {
+        display: none;
+    }
+}
+@media (max-width: 1160px) {
+    #e {
+        position: absolute;
+    }
+
+    #h,#f{
+        display: none;
+    }
+
+    #j {
+        display: none;
+    }
+
+    #tabx {
+        position: absolute;
+        top: 3px;
+        left:0px;
+        height:25px;
+    }
+
+    #anime {
+        position: absolute;
+        top: 19px;
+        left:1px;
+        width: 100%;
+    }
+    #anime2,#anime4{
+        width:100%;
+    }
+    #block, #block2 {
+        display: none;
+    }
+
+
+}
+
+
+@media (max-width: 835px) {
+    #tab{
+        margin-left: 0%;
+    }}
+
+@media (max-width: 700px) {
+    #d{
+        position: relative;
+        height:100px;
+    }
+    #ab{position: absolute;
+        left:20%;
+        top:20%;
+    }
+    #ac{
+        left:20%;
+        top:40%;
+    }
+}
+
+@media (max-width: 589px){
+    #c{
+        position: absolute;
+        width:100%;
+        height:600px;
+    }
+    #e{
+        position: absolute;
+        z-index: -1;
+        height:600px;
+    }
+    #d{position:absolute;
+        width:100%;
+        order:1;
+    }
+    #space,#ls{
+        display: none;
+    }
+    #tab{display:block;
+        position: absolute;
+        width:20%;
+        order:2;
+        height:590px;
+        border-right: 3px solid #007bff;
+        z-index: 1;
+    }
+    #tab1,#tab2,#tab3,#tab4,#tab5{
+        background-color: black;
+        border:0;
+        color:white;
+        height:50px;
+    }
+    #tab1:hover{
+        color:blue;
+        cursor: pointer;
+    }
+    #tab2:hover{color:blue;
+        cursor: pointer;
+    }
+    #tab3:hover{
+        color:blue;
+        cursor: pointer;
+    }
+    #tab4:hover{
+        color:blue;
+        cursor: pointer;
+    }
+    #tab5:hover{
+        color:blue;
+        cursor: pointer;
+    }
+    #anime{position: absolute;
+        width:90%;
+        order:3;
+        top:-53px;
+        left:115px;
+    }
+    #tabx{  top:-73px;
+        left:114px;
+    }
+}
+

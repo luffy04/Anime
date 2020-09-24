@@ -1,0 +1,64 @@
+
+#parentregiter {
+    background-color: black;
+    height:675px;
+}
+#childregister{
+    position: fixed;
+    background-color: white;
+    left: 37.5%;
+    top:20%;
+    height:45%;
+    width:25%;
+    border-radius: 0.25em;
+}
+#name{
+    position:  absolute;
+    top:10%;
+    left:10%;
+}
+#namebox{
+    position: absolute;
+    top:17%;
+    left:10%;
+    height:30px;
+    width:70%;
+    border-radius: 0.25em;
+}
+#passwordagain{
+    position: absolute;
+    top:34%;
+    left: 10%;
+}
+#passwordbox{
+    position: absolute;
+    top:41%;
+    left: 10%;
+    height:30px;
+    width:70%;
+    border-radius: 0.25em;
+}
+#confirmp{
+    position: absolute;
+    top:58%;
+    left:10%;
+}
+#confirmpbox{
+    position: absolute;
+    top:65%;
+    left:10%;
+    height:30px;
+    width:70%;
+    border-radius: 0.25em;
+}
+
+#submitboxreg{
+    position: absolute;
+    top:85%;
+    left:35%;
+    height:26px;
+    border-radius: 0.25em;
+    border-color: #007bff;
+    background-color: #007bff;
+    color:white;
+}
